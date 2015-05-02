@@ -1,0 +1,23 @@
+.wrap-contents {
+    float: left;
+    width: 760px; /* 520px + 200px + 40px */
+}
+#main {
+    float: right;
+    width: 520px; /* 幅を設定 */
+}
+#aside-a {
+    float: left;
+    width: 200px; /* 幅を設定 */
+}
+#aside-b {
+    float: right;
+    width: 160px; /* 幅を設定 */
+}
+#contents {
+    overflow: hidden;
+    zoom: 1;
+    width: 960;
+    margin: 20px auto 0;
+}
+
